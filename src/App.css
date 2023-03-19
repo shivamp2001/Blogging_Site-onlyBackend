@@ -1,0 +1,10 @@
+
+.main_div{
+    background-image: url("./Components/diary-writer-type-books.jpg");
+    width: 1440px;
+    height:717px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+

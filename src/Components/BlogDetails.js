@@ -7,6 +7,8 @@ import HeaderBlog from "./HeaderBlog";
 const lablestyle = { mb: 1, mt: 2, fontSize: "24px", fontWeight: "24px" };
 
 const BlogDetails = () => {
+  const BASE_URL=process.env.BASE_URL
+  console.log(BASE_URL);
   const navigate=useNavigate()
 
   const [inputs, setinputs] = useState();
